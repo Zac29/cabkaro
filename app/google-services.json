@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216387291925",
+    "project_id": "cabkaro-bbc2b",
+    "storage_bucket": "cabkaro-bbc2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216387291925:android:6642bc0f9d4801377b371c",
+        "android_client_info": {
+          "package_name": "com.example.cabkaro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnPKpgcDOnU3CjaML3EGs6RyGSWnNt9So"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
