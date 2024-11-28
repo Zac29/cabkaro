@@ -4,38 +4,48 @@
     android:background="@drawable/background">
 
     <!-- Logo and Title -->
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="80dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="411dp"
         android:src="@drawable/logo" />
+
+    <!-- OTP Instructions -->
+
+    <!-- OTP Input -->
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logo"
-        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="408dp"
+        android:fontFamily="sans-serif-medium"
         android:text="Cab Karo"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:fontFamily="sans-serif-medium" />
+        android:textSize="24sp" />
 
-    <!-- OTP Instructions -->
     <TextView
         android:id="@+id/otp_instruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="363dp"
         android:text="Please wait.\nWe will auto verify OTP sent to +91 **********"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
-    <!-- OTP Input -->
     <LinearLayout
         android:id="@+id/otp_input"
         android:layout_width="wrap_content"
